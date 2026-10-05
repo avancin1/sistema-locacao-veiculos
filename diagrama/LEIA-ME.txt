@@ -1,0 +1,3 @@
+Coloque aqui o diagrama relacional em PDF/PNG.
+Dica: no SQL Power Architect, conecte no banco já criado e use a engenharia reversa
+para gerar o diagrama a partir das tabelas. Depois exporte para PDF.
