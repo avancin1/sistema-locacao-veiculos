@@ -30,7 +30,13 @@ O sistema permite cadastrar, consultar, atualizar e remover clientes, veículos 
 
    sql/dados_exemplo.sql
 
-5. Configurar a variável de ambiente `DB_PASSWORD` com a senha do usuário do PostgreSQL.
+5. Criar o arquivo `.env` na raiz do projeto, cole o script abaixo e defina a senha do seu banco de dados:
+
+   DB_URL=jdbc:postgresql://localhost:5432/locadora
+
+   DB_USER=postgres
+
+   DB_PASSWORD=sua_senha_aqui
 
 6. Executar o projeto a partir da raiz:
 
